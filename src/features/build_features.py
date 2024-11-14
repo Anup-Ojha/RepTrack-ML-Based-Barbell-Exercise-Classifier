@@ -10,7 +10,7 @@ from sklearn.cluster import KMeans
 # --------------------------------------------------------------
 
 df = pd.read_pickle("../../data/interim/02_outliers_removed_chauvenet.pkl")
-
+df
 predictor_column = list(df.columns[:6])
 
 plt.style.use("fivethirtyeight")
